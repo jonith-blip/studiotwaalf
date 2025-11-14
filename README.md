@@ -1,4 +1,3 @@
-```markdown
 # POC: Online Design Editor (studiotwaalf)
 
 Korte instructie en deploy-advies.
@@ -19,7 +18,7 @@ Backend:
 - npm install
 - node export-server.js
 
-Opmerking: sharp vereist libvips. Voor shared hosting (Hostinger Shared) is het niet betrouwbaar om sharp te draaien; gebruik een externe provider voor het backend (Render, Railway, DigitalOcean App Platform, VPS).
+Opmerking: sharp vereist libvips. Voor shared hosting (Hostinger Shared) is het niet betrouwbaar om sharp te draaien; gebruik een externe provider voor de backend (Render, Railway, DigitalOcean App Platform, VPS).
 
 2) Deployment advies (Hostinger Shared)
 - Host frontend als statische site (Vercel / Netlify / of public_html op Hostinger).
@@ -27,8 +26,7 @@ Opmerking: sharp vereist libvips. Voor shared hosting (Hostinger Shared) is het 
 - Gebruik S3 voor opslag (recommended) of stel managed storage in.
 
 3) Volgende stappen die ik kan uitvoeren zodra de repo een initial commit heeft:
-- Aanmaken van branch feature/poc-editor en push van deze bestanden.
-- Openen van PR met installatie- en deploy-instructies.
+- Volledige POC push naar branch feature/poc-editor en open PR met instructies.
 - Optioneel: toevoegen van CI config en Dockerfile voor backend.
 
-```
+---
